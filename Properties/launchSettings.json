@@ -1,0 +1,15 @@
+{
+  "profiles": {
+    "az400_101_FunctionApp": {
+      "commandName": "Project",
+      "commandLineArgs": "--port 7194"
+    },
+    "Container (Dockerfile)": {
+      "commandName": "Docker",
+      "launchUrl": "{Scheme}://{ServiceHost}:{ServicePort}",
+      "containerRunArguments": "--init",
+      "httpPort": 33492,
+      "useSSL": false
+    }
+  }
+}
